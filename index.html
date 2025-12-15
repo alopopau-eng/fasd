@@ -1,121 +1,194 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>الصحة والحياة | نصائح صحية موثوقة</title>
-    <meta
-      name="description"
-      content="موقع الصحة والحياة يقدم معلومات ونصائح عامة لتحسين نمط الحياة والصحة العامة بأسلوب موثوق ومتوافق مع سياسات جوجل."
-    />
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- خط عربي -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo&display=swap"
-      rel="stylesheet"
-    />
+  <title>Healthy Life | Simple Guide to Better Living</title>
 
-    <style>
-      body {
-        font-family: 'Cairo', sans-serif;
-        background-color: #f9f9f9;
-        margin: 0;
-        padding: 0;
-        line-height: 1.8;
-      }
-      header {
-        background: #2e8b57;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
-      nav {
-        background: #eee;
-        padding: 10px;
-        text-align: center;
-      }
-      nav a {
-        margin: 0 10px;
-        text-decoration: none;
-        color: #333;
-        font-weight: bold;
-      }
-      .container {
-        max-width: 1000px;
-        margin: auto;
-        padding: 20px;
-        background: #fff;
-      }
-      h2 {
-        color: #2e8b57;
-      }
-      footer {
-        background: #333;
-        color: #fff;
-        text-align: center;
-        padding: 15px;
-        margin-top: 20px;
-        font-size: 14px;
-      }
-      .disclaimer {
-        background: #fff3cd;
-        border: 1px solid #ffeeba;
-        padding: 15px;
-        margin-top: 20px;
-        font-size: 14px;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>الصحة والحياة</h1>
-      <p>معلومات صحية عامة لتحسين نمط حياتك</p>
-    </header>
+  <!-- SEO / Google Ads compliant -->
+  <meta name="description" content="Healthy Life is an informational page that provides simple, practical tips for a balanced lifestyle, including nutrition, physical activity, mental well-being, and daily habits." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://dazkk.com/healthy-life" />
 
-    <nav>
-      <a href="#">الرئيسية</a>
-      <a href="#">نمط الحياة الصحي</a>
-      <a href="#">التغذية</a>
-      <a href="#">الصحة النفسية</a>
-      <a href="/privacy.html">سياسة الخصوصية</a>
-      <a href="#">اتصل بنا</a>
-    </nav>
+  <style>
+    body {
+      font-family: system-ui, Arial, sans-serif;
+      margin: 0;
+      background: #ffffff;
+      color: #1f2937;
+      line-height: 1.9;
+    }
+    header {
+      background: linear-gradient(135deg, #065f46, #10b981);
+      color: #ffffff;
+      padding: 48px 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 1100px;
+      margin: 48px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 56px;
+    }
+    h1, h2 {
+      margin-bottom: 16px;
+    }
+    h2 {
+      color: #065f46;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 20px;
+      background: #ffffff;
+    }
+    .note {
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background: #f3f4f6;
+      padding: 28px;
+      text-align: center;
+      font-size: 14px;
+      color: #4b5563;
+    }
+    footer a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+  </style>
+</head>
 
-    <div class="container">
-      <h2>مرحبًا بك في موقع الصحة والحياة</h2>
-      <p>
-        يهدف هذا الموقع إلى تقديم معلومات عامة وتثقيفية حول الصحة ونمط الحياة،
-        وذلك لمساعدتك على اتخاذ قرارات أفضل في حياتك اليومية.
-      </p>
+<body>
 
-      <h2>نصائح عامة لنمط حياة صحي</h2>
-      <ul>
-        <li>الحرص على تناول غذاء متوازن ومتنوع</li>
-        <li>ممارسة النشاط البدني بانتظام</li>
-        <li>الحصول على قسط كافٍ من النوم</li>
-        <li>تقليل التوتر والاهتمام بالصحة النفسية</li>
-        <li>شرب كميات كافية من الماء يوميًا</li>
-      </ul>
+<header>
+  <h1>Healthy Life</h1>
+  <p>Simple, practical guidance for a balanced and healthier lifestyle</p>
+</header>
 
-      <h2>سياسة الخصوصية</h2>
-      <p>
-        نحترم خصوصية زوارنا. لا نقوم بجمع أي معلومات شخصية دون موافقة المستخدم.
-        قد نستخدم ملفات تعريف الارتباط (Cookies) لتحسين تجربة المستخدم وعرض
-        الإعلانات المتوافقة مع Google AdSense.
-      </p>
+<main>
 
-      <div class="disclaimer">
-        <strong>إخلاء مسؤولية:</strong>
+  <!-- INTRO -->
+  <section>
+    <h2>What Is a Healthy Lifestyle?</h2>
+    <p>
+      A healthy lifestyle focuses on daily habits that support physical health,
+      mental well-being, and overall balance. Small, consistent choices can
+      have a positive impact on long-term quality of life.
+    </p>
+  </section>
+
+  <!-- NUTRITION -->
+  <section>
+    <h2>Balanced Nutrition</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Eat a Variety of Foods</h3>
         <p>
-          المعلومات الواردة في هذا الموقع هي لأغراض تثقيفية فقط ولا تُعد بديلاً
-          عن الاستشارة الطبية المتخصصة. يُرجى مراجعة الطبيب أو المختص قبل اتخاذ
-          أي قرارات صحية.
+          Include fruits, vegetables, whole grains, and proteins to help
+          your body get essential nutrients.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Stay Hydrated</h3>
+        <p>
+          Drinking enough water throughout the day supports digestion,
+          energy levels, and focus.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Moderation Matters</h3>
+        <p>
+          Balanced portions and mindful eating can help maintain a healthy routine.
         </p>
       </div>
     </div>
+  </section>
 
-    <footer>
-      <p>© 2025 موقع الصحة والحياة - جميع الحقوق محفوظة</p>
-    </footer>
-  </body>
+  <!-- PHYSICAL ACTIVITY -->
+  <section>
+    <h2>Physical Activity</h2>
+    <p>
+      Regular movement is important for strength, flexibility, and overall health.
+      Activities such as walking, stretching, or light exercise can be
+      easily added to daily routines.
+    </p>
+    <ul>
+      <li>Stay active most days of the week</li>
+      <li>Choose activities you enjoy</li>
+      <li>Balance activity with adequate rest</li>
+    </ul>
+  </section>
+
+  <!-- MENTAL WELLBEING -->
+  <section>
+    <h2>Mental Well-Being</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Manage Stress</h3>
+        <p>
+          Simple practices such as breathing exercises, organization,
+          or taking breaks can help reduce stress.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Quality Sleep</h3>
+        <p>
+          Consistent sleep schedules and a calm bedtime routine
+          support mental and physical health.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Positive Connections</h3>
+        <p>
+          Healthy relationships and social interaction contribute
+          to emotional well-being.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAILY HABITS -->
+  <section>
+    <h2>Healthy Daily Habits</h2>
+    <ul>
+      <li>Maintain a regular daily routine</li>
+      <li>Limit excessive screen time</li>
+      <li>Take short breaks during work or study</li>
+      <li>Practice good personal hygiene</li>
+    </ul>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <section class="note">
+    <h2>Important Note</h2>
+    <p>
+      This page provides general informational content only and does not
+      replace professional medical advice. For specific health concerns,
+      consult a qualified healthcare professional.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 – Healthy Life | Informational Content Only</p>
+  <p>
+    <a href="/privacy.html">Privacy Policy</a> |
+    <a href="/terms.html">Terms & Conditions</a>
+  </p>
+</footer>
+
+</body>
 </html>
